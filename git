@@ -1,0 +1,12 @@
+    初始化 Git 仓库: 在仓库目录中 git init.
+    忽略部分文件的更改: 在对应目录中放置 .gitignore 文件, 并在该文件中添加需要忽略的文件的规则.
+    查看仓库状态: git status.
+    暂存更改: git add 文件名, 或 git add -A 暂存全部更改.
+    提交更改: git commit, 此时会弹出默认编辑器并要求你输入提交信息. 也可以直接执行 git commit -m "提交信息".
+    添加远程仓库: git remote add 名称 仓库URL.
+    推送本地提交到远程: git push.
+    查看所有提交记录: git log, 你可以从中看到某个提交的哈希值.
+    把仓库复位到某个提交的状态: git reset 提交的哈希值.
+    从当前提交新建分支并切换: git checkout -b 分支名.
+    切换到分支: git checkout 分支名.
+    删除分支: git branch -D 分支名.
